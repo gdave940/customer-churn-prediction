@@ -1,0 +1,44 @@
+{
+  "model_type": "DecisionTreeClassifier",
+  "params": {
+    "max_depth": 7,
+    "min_samples_leaf": 30,
+    "class_weight": "balanced"
+  },
+  "sklearn_version": "1.9.0",
+  "trained_on": "2026-09-20",
+  "numerical_features": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "NumAddOnServices",
+    "HasAutoPayment",
+    "NewHighValue"
+  ],
+  "categorical_features": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "TenureBucket"
+  ],
+  "metrics": {
+    "accuracy": 0.7402,
+    "precision": 0.5068,
+    "recall": 0.7914,
+    "f1": 0.618,
+    "roc_auc": 0.8265
+  }
+}
