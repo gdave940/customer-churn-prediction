@@ -444,3 +444,9 @@ print(requests.post("http://127.0.0.1:8000/predict", json=payload).json())
   differed from test scores by roughly 1.5 F1 points, so reported figures carry
   variance of that order and small differences between configurations should not
   be over-read.
+
+
+  ---
+
+  *Github Link : https://github.com/gdave940/customer-churn-prediction
+  *Recording : https://nagarro-my.sharepoint.com/:v:/p/gaurav_dave/IQAonb98y2oITqKEcYu5Y_HtAW3t4usB5bwrFjDoEQ5BPgE
