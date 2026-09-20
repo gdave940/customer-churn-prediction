@@ -448,5 +448,5 @@ print(requests.post("http://127.0.0.1:8000/predict", json=payload).json())
 
   ---
 
-  *Github Link : https://github.com/gdave940/customer-churn-prediction
-  *Recording : https://nagarro-my.sharepoint.com/:v:/p/gaurav_dave/IQAonb98y2oITqKEcYu5Y_HtAW3t4usB5bwrFjDoEQ5BPgE
+  - `Github Link` : https://github.com/gdave940/customer-churn-prediction
+  - `Recording` : https://nagarro-my.sharepoint.com/:v:/p/gaurav_dave/IQAonb98y2oITqKEcYu5Y_HtAW3t4usB5bwrFjDoEQ5BPgE
